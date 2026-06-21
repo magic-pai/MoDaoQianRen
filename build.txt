@@ -1,0 +1,4 @@
+displayName = 魔刀千刃
+author = Administrator
+version = 1.4
+side = Both

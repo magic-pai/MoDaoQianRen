@@ -1,0 +1,45 @@
+v1.4 Update Log / 1.4 更新日志
+
+中文
+
+1.4 版本重点完善模式 5「赤影断空」和 F9 阶段调校菜单，让这把刀更适合作为可长期游玩的成长主武器。
+
+模式 5：赤影断空重做
+- 默认小键盘 5 切换；阶段 V 后解锁，可在“设置 - 控制”的模组按键中自定义。
+- 右键现在会举刀进入 holdout 架势，按住左键才会触发斩击，更接近高压蓄势后一刀斩出的手感。
+- 斩击判定和特效重新整理：刀痕会覆盖从玩家中心到外圈的挥砍区域，弧形填充更完整，内外层厚度更接近，透明度会随挥砍过程渐变。
+- 命中反馈修正：红色打击特效只会在真正命中敌人后出现；空挥使用普通 Overhaul 挥砍音效，命中后才使用重击音效。
+- holdout 雾状刀身加入暗红色调、动态扰动和碎片粒子，刀柄与雾状刀身根部过渡更自然。
+- 进入世界后会预缓存模式 5 相关视觉资源，减少第一次架刀/斩击时的卡顿。
+- 赤影断空伤害倍率恢复为 50 倍面板伤害。
+- 模式 5 的手感与演出参考灾厄 MOD 中破灭魔王刃的右键斩击；本模组不打包灾厄 MOD 的源码、贴图或音频资源。
+
+F9 阶段调校菜单
+- F9 菜单现在暴露当前武器所有可保存的数值参数。
+- 可调内容包括基础伤害、击退、暴击、攻速帧、刀长、千刃值上限、模式 1 回能与倍率、碎刃流、模式 2 碎刃召唤与剪刃、模式 3 大剑爆发/突进/环斩、模式 4 防御倍率、圆团与终局追刃、模式 5 赤影断空等。
+- 每个参数都有简短说明和保存范围提示，悬停或选中即可查看。
+- 面板顶部新增当前阶段玩法总览，说明每个模式的核心用途和解锁情况。
+- 武器 tooltip 新增“当前玩法”说明，并拆成短行显示，避免面板过宽导致文字跑出屏幕。
+- 旧版本保存的阶段参数会自动补齐新增字段默认值，避免升级后新参数变成 0。
+
+English
+
+Version 1.4 focuses on Mode 5: Crimson Rift and the F9 stage tuning menu, making the blade stronger as a long-term progression weapon.
+
+Mode 5: Crimson Rift Rework
+- Switch with Numpad 5 by default after Stage V; the key can be changed under mod keybinds.
+- Right click now raises the blade into a holdout stance. Holding left click releases the slash, giving the attack a charged, deliberate feel.
+- Slash visuals and hit coverage were rebuilt: the trail fills the area from the player toward the outer arc, uses fuller curved coverage, more even inner/outer thickness, and stronger alpha progression during the swing.
+- Hit feedback was fixed: red impact effects now appear only after hitting enemies. Empty swings use the normal Overhaul swing sound, while confirmed hits use the heavy sound.
+- The holdout mist blade now has a darker red tone, animated motion, shard particles, and a smoother root transition near the hilt.
+- Mode 5 visual resources are warmed up when entering a world to reduce the first-swing hitch.
+- Crimson Rift damage is restored to 50x weapon damage.
+- Mode 5 feel and presentation reference the right-click slash of Calamity Mod's Murasama-style design. This mod does not include Calamity source code, textures, or audio.
+
+F9 Stage Tuning Menu
+- The F9 menu now exposes every saved numeric gameplay parameter for the current weapon stage.
+- Tunable values include base damage, knockback, crit, use frames, blade length, max Shard Charge, Mode 1 charge gains and multipliers, shard stream values, Mode 2 summons and shears, Mode 3 burst/dash/ring slash, Mode 4 guard multipliers, shard orb/final convergence values, and Mode 5 Crimson Rift values.
+- Every parameter has a short explanation and saved range hint, shown on hover or selection.
+- The top of the panel now includes a stage playstyle guide for all modes and their unlock states.
+- Weapon tooltips now include current-mode playstyle text, split into short lines so the tooltip no longer grows off-screen.
+- Older saved stage configs automatically receive defaults for newly added fields.

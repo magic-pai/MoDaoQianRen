@@ -1,0 +1,344 @@
+Mods: {
+	魔刀千刃: {
+		Items: {
+			MoDaoQianRen: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣
+				Stage0: 阶段 0 - 残缺魔刀
+				Stage1: 阶段 I - 初醒魔刀
+				Stage2: 阶段 II - 千刃雏形
+				Stage3: 阶段 III - 千刃解封
+				Stage4: 阶段 IV - 千刃归圆
+				Stage5: 阶段 V - 千刃领域
+				Stage6: 阶段 VI - 千刃破月
+				Stage7: 阶段 VII - 万刃归宗
+				Stats: 当前属性：伤害 {0} / 最大刀身 {1} / 当前攻速帧数 {2}
+				Mechanic0: 初始成长主武器；左键二段重斩命中积累千刃值，右键消耗千刃值释放短程碎刃；击败首个 Boss 后可在背包中右键觉醒
+				Mechanic1: 左键升级为三段连斩；刀身完整时第三段改为蓄势强化挥砍，刀身延展碎片化后第三段改为 360 度抡斩
+				Mechanic2: 刀身最大长度进一步提升；右键碎刃流正式成型，释放密度提高，作为稳定输出手段
+				Mechanic3: 刀身上限、千刃值上限和碎刃释放密度提升；右键释放更凶的碎刃流，后续阶段会获得轻微追踪
+				Mechanic4: 按住鼠标中键召出可操控的千刃圆团；圆团与牵引碎片区域都会造成近战伤害
+				Mechanic5: 中键圆团会把消耗的千刃值转化为爆发能量；爆散适合窗口爆发，持续输出仍以左键和右键碎刃流为主
+				Mechanic6: 石巨人后的月前形态；伤害、刀身、千刃值上限提升，中键圆团范围、自动爆发与爆散上限进一步提高
+				Mechanic7: 月亮领主后的终极形态；左键命中脱落追踪碎刃，脱离碎刃命中也会回收千刃值；右键形成高压碎刃流，中键满爆后进入短暂归宗态
+				ModeControlsLocked: 模式切换：小键盘 1 为默认刀形态。\\n小键盘 2 阶段 IV 解锁；小键盘 3/5 阶段 V 解锁。\\n按键可在“控制”的模组按键中自定义。
+				ModeControlsShardUnlocked: 模式切换：小键盘 1 默认刀形态 / 小键盘 2 碎刃召唤。\\n小键盘 3/5 会在阶段 V 解锁。\\n按键可在“控制”的模组按键中自定义。
+				ModeControlsUnlocked: 模式切换：1 默认刀形态 / 2 碎刃召唤 / 3 重构大剑。\\n4 防御辅助 / 5 赤影断空。\\n按键可在“控制”的模组按键中自定义。
+				Mode2Locked: 碎刃召唤模式会在阶段 IV「千刃归圆」解锁
+				Mode3Locked: 重构大剑模式会在阶段 V「千刃领域」解锁
+				Mode4Locked: 防御辅助模式会在阶段 IV「千刃归圆」解锁
+				Mode5Locked: 赤影断空模式会在阶段 V「千刃领域」解锁
+				ModeGameplay1: 当前玩法：默认刀形态。\\n左键连斩回收千刃值，右键喷射碎刃。\\n阶段 IV 后可用中键操控圆团。
+				ModeGameplay2: 当前玩法：碎刃召唤。\\n自动召出碎刃追踪敌人；中键切换剪刃。\\n右键维持剪刃风暴。
+				ModeGameplay2Locked: 当前玩法：碎刃召唤会在阶段 IV 解锁。\\n主打持续追踪输出与剪刃风暴。
+				ModeGameplay3: 当前玩法：重构大剑。\\n左键慢速三段重斩；右键突进接环斩。\\n中键消耗千刃值蓄力爆发。
+				ModeGameplay3Locked: 当前玩法：重构大剑会在阶段 V 解锁。\\n主打慢速重击、突进和蓄力爆发。
+				ModeGameplay4: 当前玩法：防御辅助。\\n左/中/右键切换守御强度。\\n用输出和召唤容量换取减伤。
+				ModeGameplay4Locked: 当前玩法：防御辅助会在阶段 IV 解锁。\\n主打减伤、守御场和召唤容量压缩。
+				ModeGameplay5: 当前玩法：赤影断空。\\n右键举刀进入架势；按住左键释放大范围斩击。\\n命中后触发重击反馈。
+				ModeGameplay5Locked: 当前玩法：赤影断空会在阶段 V 解锁。\\n右键蓄势，左键释放大范围斩击。
+				Mode3BurstNeedCharge: 模式三中键爆发需要千刃值。
+				PrefixDamageBonus: +{0}%伤害
+				PrefixDamagePenalty: -{0}%伤害
+				PrefixSpeedBonus: +{0}%速度
+				PrefixSpeedPenalty: -{0}%速度
+				PrefixCritBonus: +{0}%暴击率
+				PrefixCritPenalty: -{0}%暴击率
+				PrefixKnockbackBonus: +{0}%击退力
+				PrefixKnockbackPenalty: -{0}%击退力
+				Ready: 已满足
+				Missing: 未满足
+				Next1: 下一次觉醒（{0}）：击败任意 Boss，并消耗 3 个坠落之星和 4 个晶状体
+				Next2: 下一次觉醒（{0}）：击败骷髅王或蜂王，并消耗 30 个骨头或 12 个蜂蜡，再消耗 10 个魔矿锭或猩红矿锭
+				Next3: 下一次觉醒（{0}）：进入困难模式，并消耗 15 个狱石锭、12 个水晶碎块、8 个光明之魂或暗影之魂
+				Next4: 下一次觉醒（{0}）：击败任意机械 Boss，并消耗 12 个神圣锭、8 个力量之魂/视域之魂/恐惧之魂
+				Next5: 下一次觉醒（{0}）：击败世纪之花，并消耗 18 个叶绿锭、10 个灵气、1 个生命果、25 个暗影鳞片或组织样本
+				Next6: 下一次觉醒（{0}）：击败石巨人，并消耗 12 个甲虫外壳、1 个日耀碑牌、12 个灵气
+				Next7: 最终觉醒（{0}）：击败月亮领主，并消耗 12 个夜明锭、四柱碎片各 8 个
+				NeedFirstBoss: 魔刀仍在沉睡。先击败任意 Boss。
+				NeedStage1Items: 初醒需要 3 个坠落之星和 4 个晶状体。
+				NeedSkeletronOrQueenBee: 魔刀需要更强的猎物。先击败骷髅王或蜂王。
+				NeedStage2Items: 千刃觉醒需要 30 个骨头或 12 个蜂蜡，并需要 10 个魔矿锭或猩红矿锭。
+				NeedHardmode: 魔刀需要困难模式的力量。先击败血肉墙。
+				NeedStage3Items: 解封需要 15 个狱石锭、12 个水晶碎块，以及 8 个光明之魂或暗影之魂。
+				NeedMechBoss: 千刃圆团需要机械 Boss 的力量。先击败任意机械 Boss。
+				NeedStage4Items: 千刃归圆需要 12 个神圣锭，以及 8 个力量之魂、视域之魂或恐惧之魂。
+				NeedPlantera: 千刃领域需要丛林深处的力量。先击败世纪之花。
+				NeedStage5Items: 千刃领域需要 18 个叶绿锭、10 个灵气、1 个生命果，以及 25 个暗影鳞片或组织样本。
+				NeedGolem: 千刃破月需要神庙深处的力量。先击败石巨人。
+				NeedStage6Items: 千刃破月需要 12 个甲虫外壳、1 个日耀碑牌，以及 12 个灵气。
+				NeedMoonLord: 万刃归宗需要月亮领主的残响。先击败月亮领主。
+				NeedStage7Items: 最终觉醒需要 12 个夜明锭，以及日耀、星旋、星云、星尘碎片各 8 个。
+				Upgrade1: 魔刀初醒。破碎刀身开始回应你的挥砍。
+				Upgrade2: 千刃回应了你。千刃值与碎刃释放已解锁。
+				Upgrade3: 千刃解封。更长的刀身与更密集的碎刃流已苏醒。
+				Upgrade4: 千刃归圆。按住鼠标中键即可操控碎片圆团。
+				Upgrade5: 千刃领域已展开。圆团将吞吐千刃值，并在散去时爆裂成刃。
+				Upgrade6: 千刃破月。碎刃将追上逃离的猎物，直到月光被斩开。
+				Upgrade7: 万刃归宗。所有碎片终于听从同一次挥砍。
+				AwakenedCombatText: 魔刀觉醒
+				FixedStage: 固定阶段测试物品；不会通过右键继续升级。
+				CurrentLimit: 当前版本的成长已达上限。
+			}
+
+			MoDaoQianRenStage0: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage1: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage2: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage3: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage4: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage5: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage6: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+
+			MoDaoQianRenStage7: {
+				DisplayName: 魔刀千刃
+				Tooltip: 刀身破碎，却仍能听见千刃低鸣。
+			}
+		}
+
+		Projectiles: {
+			MoDaoQianRenHeldProjectile.DisplayName: 魔刀千刃
+			MoDaoQianRenShardProjectile.DisplayName: 千刃碎片
+			MoDaoQianRenShardOrbProjectile.DisplayName: 千刃圆团
+			// MoDaoQianRenPrismBladeProjectile.DisplayName: Mo Dao Qian Ren Prism Blade Projectile
+			// MoDaoQianRenPrismShardProjectile.DisplayName: Mo Dao Qian Ren Prism Shard Projectile
+			// MoDaoQianRenShearsProjectile.DisplayName: Mo Dao Qian Ren Shears Projectile
+			// MoDaoQianRenShearsTyphoonProjectile.DisplayName: Mo Dao Qian Ren Shears Typhoon Projectile
+			// MoDaoQianRenGuardFieldProjectile.DisplayName: Mo Dao Qian Ren Guard Field Projectile
+			// MoDaoQianRenCrimsonRiftSlashProjectile.DisplayName: Mo Dao Qian Ren Crimson Rift Slash Projectile
+		}
+
+		UI: {
+			ShardCharge: 千刃值 {0}/{1}
+
+			StageEditor: {
+				Title: 千刃阶段调校台
+				Subtitle: 点击槽位读取鼠标、手持或背包中的魔刀千刃，然后修改原始面板参数
+				Hint: 悬停或选中参数可查看作用、保存范围和实际下限；保存只影响当前阶段。
+				EmptySlot: 点击左侧槽位读取当前拥有的魔刀千刃
+				SlotHint: 点击读取武器
+				SlotSubhint: 槽位只读取阶段，不移动或消耗武器
+				InvalidItem: 只接受魔刀千刃
+				Save: 保存
+				Reset: 还原
+				AutoUpgradeOn: 自动觉醒：开
+				AutoUpgradeOff: 自动觉醒：关
+				AutoUpgradeDesc: 开启后，击败对应阶段 Boss 后会自动升阶，不再消耗觉醒材料。
+				Close: 关闭
+				StatusNeedBlade: 请先放入魔刀千刃
+				StatusInvalidItem: 这个槽位只读取魔刀千刃的阶段
+				StatusInvalidField: "{0} 的数值无效"
+				StatusSaved: 已保存 {0} 的阶段参数
+				StatusReset: 已还原 {0} 的默认参数
+				StatusAutoUpgradeEnabled: 已开启击败 Boss 后自动觉醒
+				StatusAutoUpgradeDisabled: 已关闭击败 Boss 后自动觉醒
+				StatusLoadedCustom: 已载入 {0} 的自定义参数
+				StatusLoadedDefault: 已载入 {0} 的默认参数
+				ModeGuideTitle: 当前阶段玩法
+				ModeGuide1: 模式1：左键近战连斩积累千刃值，右键消耗千刃值喷射碎刃，中键在阶段 IV 后操控圆团。
+				ModeGuide2: 模式2：小键盘2切换，自动召唤碎刃追踪敌人；中键切为剪刃，右键维持剪刃风暴。
+				ModeGuide2Locked: 模式2：阶段 IV 解锁碎刃召唤，主打召唤物持续追踪与剪刃风暴。
+				ModeGuide3: 模式3：小键盘3切换，慢速三段大剑斩；右键突进接环斩，中键蓄力后释放大范围爆发。
+				ModeGuide3Locked: 模式3：阶段 V 解锁重构大剑，主打慢速高倍率斩击、突进和蓄力爆发。
+				ModeGuide4: 模式4：小键盘4切换，左/中/右键切守御强度，牺牲输出换取减伤与召唤容量调整。
+				ModeGuide4Locked: 模式4：阶段 IV 解锁防御辅助，主打减伤、守御场和召唤容量压缩。
+				ModeGuide5: 模式5：小键盘5切换，右键举刀，按住左键才触发赤影断空；命中后产生重击反馈。
+				ModeGuide5Locked: 模式5：阶段 V 解锁赤影断空，右键蓄势、左键释放大范围斩击。
+				FieldDamage: 伤害
+				FieldKnockBack: 击退
+				FieldCritChance: 暴击
+				FieldUseTime: 攻速帧
+				FieldBladeLength: 刀身长
+				FieldMaxShardCharge: 千刃上限
+				FieldShardStreamConsumeRate: 碎流间隔
+				FieldShardStreamShardCount: 碎流数量
+				FieldShardStreamDamageMultiplier: 碎流倍率
+				FieldShardPrismSetupUseTime: 召唤起手
+				FieldShardPrismBaseShardCount: 召唤基础
+				FieldShardPrismShardsPerBonusMinionSlot: 召唤加成
+				FieldShardPrismMaxShardCount: 召唤上限
+				FieldShardPrismDamageMultiplier: 召唤倍率
+				FieldGreatswordCritChance: 大剑暴击
+				FieldGreatswordDamageMultiplier: 大剑倍率
+				FieldGreatswordHeavyDamageMultiplier: 大剑重击
+				FieldGreatswordKnockbackMultiplier: 大剑击退
+				FieldGreatswordHeavyKnockbackMultiplier: 重击击退
+				FieldComboShardDamageMultiplier: 连段碎刃
+				FieldGreatswordAssistShardDamageMultiplier: 大剑追刃
+				FieldFieldBurstDamageMultiplier: 领域爆散
+				FieldBladeDistanceDamageMultiplierMax: 距离上限
+				FieldBladeHeavyDamageMultiplier: 刀形重击
+				FieldBladeSpinDamageMultiplier: 刀形回旋
+				FieldBladeHitShardChargeGain: 刀形回能
+				FieldBladeFinisherShardChargeBonus: 终结回能
+				FieldTipHitShardChargeBonus: 刀尖回能
+				FieldShardPrismSearchRange: 召唤索敌
+				FieldShardPrismPlayerOrbitRadius: 玩家环绕
+				FieldShardPrismTargetOrbitRadius: 目标环绕
+				FieldShardPrismChargeTime: 召唤周期
+				FieldShardPrismIdleSpeed: 待机速度
+				FieldShardPrismTargetOrbitSpeed: 环绕速度
+				FieldShardPrismLungeSpeed: 突刺速度
+				FieldShardPrismRepulsionSpeed: 回避速度
+				FieldShardPrismLocalHitCooldown: 召唤冷却
+				FieldShearsSummonDamageMultiplier: 剪刃倍率
+				FieldShearsTyphoonDamageMultiplier: 风暴倍率
+				FieldShearsLocalHitCooldown: 剪刃冷却
+				FieldShearsTyphoonLocalHitCooldown: 风暴冷却
+				FieldGreatswordBurstDamageMultiplier: 爆发倍率
+				FieldGreatswordBurstLengthMultiplier: 爆发刀长
+				FieldGreatswordBurstMaximumBladeLength: 爆发上限
+				FieldGreatswordBurstChargeConsumeInterval: 蓄力间隔
+				FieldGreatswordBurstChargePerHit: 每段消耗
+				FieldGreatswordBurstMaximumHitCount: 爆发段数
+				FieldGreatswordComboDashShardCost: 突进消耗
+				FieldGreatswordComboDashLengthMultiplier: 突进刀长
+				FieldGreatswordComboRingSlashFrames: 环斩帧数
+				FieldGreatswordComboRingSlashConsumeInterval: 环斩消耗
+				FieldGreatswordComboRingSlashDamageMultiplier: 环斩倍率
+				FieldGreatswordHitShardChargeGain: 大剑回能
+				FieldGreatswordFinisherShardChargeBonus: 大剑终结
+				FieldGuardNormalDamageMultiplier: 守御伤害
+				FieldGuardWallDamageMultiplier: 壁垒伤害
+				FieldGuardSuperDamageMultiplier: 超守伤害
+				FieldGuardNormalShardCapacityMultiplier: 守御容量
+				FieldGuardWallShardCapacityMultiplier: 壁垒容量
+				FieldGuardSuperShardCapacityMultiplier: 超守容量
+				FieldFieldBurstFullCharge: 爆散满蓄
+				FieldFieldBurstMinimumCharge: 爆散最低
+				FieldFieldBurstShardCount: 爆散数量
+				FieldFieldMinimumRadius: 领域内径
+				FieldFieldMaximumRadius: 领域外径
+				FieldFinalAssistShardDamageMultiplier: 终局追刃
+				FieldFinalConvergenceShardDamageMultiplier: 归宗追刃
+				FieldFinalConvergenceDuration: 归宗持续
+				FieldFinalConvergencePulseRate: 归宗间隔
+				FieldCrimsonRiftDamageMultiplier: 赤影倍率
+				FieldCrimsonRiftBladeLengthMultiplier: 赤影刀长
+				FieldCrimsonRiftShardChargeGain: 赤影回能
+				FieldCrimsonRiftWindupFrames: 赤影起手
+				FieldCrimsonRiftSlashFrames: 赤影斩击
+				FieldCrimsonRiftRecoveryFrames: 赤影收刀
+				FieldCrimsonRiftLocalHitCooldown: 赤影冷却
+				FieldDamageDesc: 基础伤害；保存范围 1-9999。
+				FieldKnockBackDesc: 基础击退；保存范围 0-50。
+				FieldCritChanceDesc: 模式一暴击率；保存范围 0-100。
+				FieldUseTimeDesc: 左键基础帧；保存范围 1-999，实际物品下限5帧，挥砍下限普攻8/10、终结13/15。
+				FieldBladeLengthDesc: 模式一刀身长度；保存范围 40-3000，实际显示/判定会限制在武器最大刀长内。
+				FieldMaxShardChargeDesc: 千刃值上限；保存范围 0-9999，右键、中键和模式三中键爆发段数都会消耗或受它影响。
+				FieldShardStreamConsumeRateDesc: 右键喷射间隔；保存范围 1-999，实际最低2帧。
+				FieldShardStreamShardCountDesc: 右键每次喷出的碎刃数量；保存范围 0-100。
+				FieldShardStreamDamageMultiplierDesc: 右键每片碎刃伤害倍率；保存范围 0.01-50。
+				FieldShardPrismSetupUseTimeDesc: 模式二召唤起手帧；保存范围 1-999，数值越小越快。
+				FieldShardPrismBaseShardCountDesc: 模式二基础召唤碎刃数量；保存范围 0-300。
+				FieldShardPrismShardsPerBonusMinionSlotDesc: 模式二每个额外召唤栏增加数量；保存范围 0-100。
+				FieldShardPrismMaxShardCountDesc: 模式二召唤碎刃数量上限；保存范围 0-400。
+				FieldShardPrismDamageMultiplierDesc: 模式二召唤碎刃伤害倍率；保存范围 0-50。
+				FieldGreatswordCritChanceDesc: 模式三大剑暴击率；保存范围 0-100。
+				FieldGreatswordDamageMultiplierDesc: 模式三普通斩击伤害倍率；保存范围 0-50。
+				FieldGreatswordHeavyDamageMultiplierDesc: 模式三第三段重击伤害倍率；保存范围 0-50。
+				FieldGreatswordKnockbackMultiplierDesc: 模式三普通斩击击退倍率；保存范围 0-50。
+				FieldGreatswordHeavyKnockbackMultiplierDesc: 模式三重击击退倍率；保存范围 0-50。
+				FieldComboShardDamageMultiplierDesc: 左键命中附带碎刃倍率；保存范围 0-50。
+				FieldGreatswordAssistShardDamageMultiplierDesc: 模式三命中追刃倍率；保存范围 0-50。
+				FieldFieldBurstDamageMultiplierDesc: 中键圆团爆散伤害倍率；保存范围 0-50。
+				FieldBladeDistanceDamageMultiplierMaxDesc: 模式一按刀长距离获得的最高伤害倍率；保存范围 0-50。
+				FieldBladeHeavyDamageMultiplierDesc: 模式一第三段重击倍率；保存范围 0-50。
+				FieldBladeSpinDamageMultiplierDesc: 模式一回旋终结倍率；保存范围 0-50。
+				FieldBladeHitShardChargeGainDesc: 模式一普通命中获得的千刃值；保存范围 0-999。
+				FieldBladeFinisherShardChargeBonusDesc: 模式一重击或回旋命中的额外千刃值；保存范围 0-999。
+				FieldTipHitShardChargeBonusDesc: 刀尖命中额外获得的千刃值；保存范围 0-999。
+				FieldShardPrismSearchRangeDesc: 模式二碎刃自动寻找敌人的距离；保存范围 0-6000。
+				FieldShardPrismPlayerOrbitRadiusDesc: 模式二无目标时围绕玩家的半径；保存范围 0-2000。
+				FieldShardPrismTargetOrbitRadiusDesc: 模式二有目标时围绕敌人的半径；保存范围 0-2000。
+				FieldShardPrismChargeTimeDesc: 模式二碎刃一次待机到突刺的总周期；保存范围 1-999。
+				FieldShardPrismIdleSpeedDesc: 模式二碎刃回到待机位置的速度；保存范围 0-200。
+				FieldShardPrismTargetOrbitSpeedDesc: 模式二碎刃围绕目标移动的速度；保存范围 0-200。
+				FieldShardPrismLungeSpeedDesc: 模式二碎刃突刺速度；保存范围 0-200。
+				FieldShardPrismRepulsionSpeedDesc: 模式二碎刃命中后拉开的速度；保存范围 0-200。
+				FieldShardPrismLocalHitCooldownDesc: 模式二碎刃对同一敌人的命中冷却；保存范围 1-999。
+				FieldShearsSummonDamageMultiplierDesc: 模式二剪刃常驻形态的面板伤害倍率；保存范围 0-500。
+				FieldShearsTyphoonDamageMultiplierDesc: 模式二右键剪刃风暴的面板伤害倍率；保存范围 0-500。
+				FieldShearsLocalHitCooldownDesc: 剪刃常驻形态命中同一敌人的冷却；保存范围 1-999。
+				FieldShearsTyphoonLocalHitCooldownDesc: 剪刃风暴命中同一敌人的冷却；保存范围 1-999。
+				FieldGreatswordBurstDamageMultiplierDesc: 模式三中键爆发的面板伤害倍率；保存范围 0-500。
+				FieldGreatswordBurstLengthMultiplierDesc: 模式三中键满蓄力时的刀长倍率；保存范围 0-20。
+				FieldGreatswordBurstMaximumBladeLengthDesc: 模式三中键爆发允许达到的最大刀长；保存范围 120-4000。
+				FieldGreatswordBurstChargeConsumeIntervalDesc: 模式三中键蓄力每消耗1点千刃值的帧间隔；保存范围 1-999。
+				FieldGreatswordBurstChargePerHitDesc: 模式三中键爆发每一段命中需要的千刃值；保存范围 1-999。
+				FieldGreatswordBurstMaximumHitCountDesc: 模式三中键爆发最大命中段数；保存范围 1-999。
+				FieldGreatswordComboDashShardCostDesc: 模式三右键突进起手消耗的千刃值；保存范围 0-999。
+				FieldGreatswordComboDashLengthMultiplierDesc: 模式三右键突进判定刀长倍率；保存范围 0-20。
+				FieldGreatswordComboRingSlashFramesDesc: 模式三右键命中后持续按住右键触发的环斩时长；保存范围 1-999。
+				FieldGreatswordComboRingSlashConsumeIntervalDesc: 环斩每消耗1点千刃值的帧间隔；保存范围 1-999。
+				FieldGreatswordComboRingSlashDamageMultiplierDesc: 环斩在重击倍率之外的额外倍率；保存范围 0-50。
+				FieldGreatswordHitShardChargeGainDesc: 大剑普通命中获得的千刃值；保存范围 0-999。
+				FieldGreatswordFinisherShardChargeBonusDesc: 大剑重击命中额外获得的千刃值；保存范围 0-999。
+				FieldGuardNormalDamageMultiplierDesc: 模式四左键守御形态受到伤害倍率；保存范围 0-10。
+				FieldGuardWallDamageMultiplierDesc: 模式四中键壁垒形态受到伤害倍率；保存范围 0-10。
+				FieldGuardSuperDamageMultiplierDesc: 模式四右键超守形态受到伤害倍率；保存范围 0-10。
+				FieldGuardNormalShardCapacityMultiplierDesc: 守御形态保留的召唤碎刃容量倍率；保存范围 0-10。
+				FieldGuardWallShardCapacityMultiplierDesc: 壁垒形态保留的召唤碎刃容量倍率；保存范围 0-10。
+				FieldGuardSuperShardCapacityMultiplierDesc: 超守形态保留的召唤碎刃容量倍率；保存范围 0-10。
+				FieldFieldBurstFullChargeDesc: 中键圆团自动满蓄释放需要的千刃值；保存范围 1-999。
+				FieldFieldBurstMinimumChargeDesc: 松开中键时允许爆散的最低蓄力；保存范围 0-999。
+				FieldFieldBurstShardCountDesc: 圆团满蓄爆散时发射的碎刃数量；保存范围 0-999。
+				FieldFieldMinimumRadiusDesc: 圆团领域状态的最小半径；保存范围 0-4000。
+				FieldFieldMaximumRadiusDesc: 圆团领域状态的最大半径；保存范围 0-4000。
+				FieldFinalAssistShardDamageMultiplierDesc: 终局形态左键命中的追刃倍率；保存范围 0-50。
+				FieldFinalConvergenceShardDamageMultiplierDesc: 终局圆团满蓄后的归宗追刃倍率；保存范围 0-50。
+				FieldFinalConvergenceDurationDesc: 终局圆团归宗状态持续帧数；保存范围 1-999。
+				FieldFinalConvergencePulseRateDesc: 终局圆团归宗状态每次射出追刃的帧间隔；保存范围 1-999。
+				FieldCrimsonRiftDamageMultiplierDesc: 模式五赤影断空斩击面板伤害倍率；保存范围 0-500。
+				FieldCrimsonRiftBladeLengthMultiplierDesc: 模式五赤影断空刀长倍率；保存范围 0-20。
+				FieldCrimsonRiftShardChargeGainDesc: 模式五赤影断空命中获得的千刃值；保存范围 0-999。
+				FieldCrimsonRiftWindupFramesDesc: 模式五按住左键后斩击起手帧数；保存范围 1-999。
+				FieldCrimsonRiftSlashFramesDesc: 模式五真正有伤害判定的斩击帧数；保存范围 1-999。
+				FieldCrimsonRiftRecoveryFramesDesc: 模式五斩击后的收刀帧数；保存范围 1-999。
+				FieldCrimsonRiftLocalHitCooldownDesc: 模式五对同一敌人的命中冷却；保存范围 1-999。
+			}
+		}
+
+		Keybinds: {
+			OpenStageEditor.DisplayName: 打开千刃调校台
+			SwitchToBladeMode.DisplayName: 切换至模式 1：默认刀形态
+			SwitchToShardPrismMode.DisplayName: 切换至模式 2：碎刃召唤
+			SwitchToGreatswordMode.DisplayName: 切换至模式 3：重构大剑
+			SwitchToGuardMode.DisplayName: 切换至模式 4：防御辅助
+			SwitchGreatswordDevilsMode.DisplayName: 切换至模式 5：赤影断空
+		}
+
+		UpdateNotice: {
+			Header: 魔刀千刃 v0.4 已更新：这把刀现在更适合作为全流程主武器。
+			Line1: 左键重做：挥砍更清晰，完整刀身第三段强化挥砍，碎片长刀第三段回旋斩。
+			Line2: 右键与中键重新平衡，碎刃流、千刃圆团和终极形态资源循环更顺。
+			Line3: 碎片视觉、近战攻速适配、WeaponOut 贴图尺寸和发布图标均已优化。
+		}
+	}
+}

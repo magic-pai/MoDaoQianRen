@@ -1,0 +1,63 @@
+中文简介
+
+只攻不防，天下无双。
+
+《魔刀千刃》是以《刺客伍六七》中的魔刀千刃为灵感制作的 Terraria 同人武器模组。新角色会自动获得初始魔刀；随着 Boss 进度推进，你可以在背包中右键武器并消耗材料觉醒，让它从前期武器一路成长到月亮领主后的终极兵刃。
+
+核心玩法：
+- 左键：近战连斩。成长后刀身会碎片化延展，攻击范围和视觉表现逐步增强。
+- 右键：消耗千刃值释放高压碎刃流，适合远距离压制和持续输出。
+- 鼠标中键：中后期解锁千刃圆团，可操控、蓄能并释放追踪碎刃。
+- 模式切换：默认小键盘 1/2/3/4/5 分别切换默认刀形态、碎刃召唤、重构大剑、防御辅助和赤影断空，也可在“设置 - 控制”的模组按键中自定义。
+- 成长觉醒：击败关键 Boss 并消耗材料后升级，每个阶段都会提升面板、攻速、刀身长度，并解锁新机制。
+
+1.4 版本重点：
+- 模式 5「赤影断空」全面重做。阶段 V 后按小键盘 5 切换，右键举刀进入架势，按住左键释放大范围斩击。
+- 赤影断空现在拥有更完整的弧形刀痕、暗红色调、动态雾状刀身、碎片粒子、命中限定红色打击特效，以及空挥/命中分离的音效反馈。
+- 模式 5 视觉资源会在进入世界后预缓存，减少第一次挥砍时的卡顿。
+- 赤影断空伤害倍率为 50 倍面板伤害。
+- F9 阶段调校菜单大幅扩展，现已暴露当前武器所有可保存的数值参数。
+- F9 可调整基础面板、刀形态、碎刃流、碎刃召唤、剪刃、大剑爆发、突进环斩、防御辅助、千刃圆团、终局追刃和赤影断空相关参数。
+- 每个 F9 参数都有简短说明、保存范围提示和当前阶段玩法介绍，适合测试、微调平衡或制作个人难度版本。
+- 武器 tooltip 新增当前模式玩法说明，并优化换行，避免介绍面板过宽。
+
+参考与声明：
+- 模式 5 的手感与演出参考灾厄 MOD 中破灭魔王刃的右键斩击。
+- 本模组不打包灾厄 MOD 的源码、贴图或音频资源；发布时请保留相关来源说明。
+- 本模组为玩家同人致敬作品，与《刺客伍六七》官方无关。
+
+推荐搭配：
+- Terraria Overhaul：获得更好的刀剑挥砍音效、战斗氛围和手感。
+- Weapon Out：获得更完整的手持展示效果和武器存在感。
+
+English Description
+
+Attack without defense. Unmatched under heaven.
+
+Mo Dao Qian Ren is a Terraria fan-made weapon mod inspired by the Thousand Demon Daggers from Scissor Seven. New characters start with the blade, and it awakens through boss progression and material costs, growing from an early-game weapon into a post-Moon Lord main weapon.
+
+Core Features:
+- Left click: melee chains with growing reach and stronger shard visuals.
+- Right click: spend Shard Charge to fire a high-pressure shard stream.
+- Middle mouse: unlock a controllable shard orb later in progression.
+- Mode keys: Numpad 1/2/3/4/5 switch blade form, shard summon, reforged greatsword, guard support, and Crimson Rift by default. These keys can be changed under mod keybinds.
+- Awakening: each stage improves stats, speed, blade length, and unlocks new mechanics.
+
+Version 1.4 Highlights:
+- Mode 5: Crimson Rift has been rebuilt. After Stage V, press Numpad 5, right click to raise the blade, then hold left click to release the wide slash.
+- Crimson Rift now has fuller curved slash coverage, a dark red tone, animated mist blade motion, shard particles, hit-only red impact effects, and separate empty-swing / confirmed-hit audio feedback.
+- Mode 5 visual resources warm up after entering a world to reduce first-use stutter.
+- Crimson Rift deals 50x weapon damage.
+- The F9 stage tuning menu now exposes every saved numeric gameplay parameter for the current weapon stage.
+- F9 can tune base stats, blade form, shard streams, shard summons, shears, greatsword burst, dash and ring slash, guard support, shard orb, final convergence, and Crimson Rift values.
+- Every F9 parameter has a short explanation, saved range hint, and a current-stage playstyle guide, useful for testing, balance tweaks, or personal difficulty tuning.
+- Weapon tooltips now show the current mode's playstyle and use shorter wrapped lines to avoid off-screen panels.
+
+Reference and Disclaimer:
+- Mode 5 feel and presentation reference the right-click slash of Calamity Mod's Murasama-style design.
+- This mod does not include Calamity source code, textures, or audio. Please keep the source credit when publishing.
+- This is a fan-made tribute mod and is not affiliated with the official Scissor Seven series.
+
+Recommended Pairings:
+- Terraria Overhaul: better blade audio, combat feel, and atmosphere.
+- Weapon Out: fuller held-weapon presentation and presence.

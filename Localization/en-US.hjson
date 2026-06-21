@@ -1,0 +1,344 @@
+Mods: {
+	魔刀千刃: {
+		Items: {
+			MoDaoQianRen: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+				Stage0: Stage 0 - Dormant Blade
+				Stage1: Stage I - Awakened Blade
+				Stage2: Stage II - Thousand Blades
+				Stage3: Stage III - Unbound Blades
+				Stage4: Stage IV - Orb of Blades
+				Stage5: Stage V - Blade Field
+				Stage6: Stage VI - Moonbreaker Blades
+				Stage7: Stage VII - Thousandfold Convergence
+				Stats: Current stats: Damage {0} / Max blade {1} / Current speed frames {2}
+				Mechanic0: A growing main weapon from spawn. Left-click chains two heavy slashes that build Shard Charge; right click spends it on short-range shards. Right click it in your inventory after your first boss to awaken it.
+				Mechanic1: Left-click upgrades into a three-hit chain. With a complete blade, the third hit becomes a charged empowered slash; once extended into fragments, it becomes a 360-degree sweep.
+				Mechanic2: Maximum blade length increases further. The right-click shard stream fully forms with higher release density as a reliable damage option.
+				Mechanic3: Max blade length, Shard Charge capacity, and shard stream density increase. Later stages add light guidance to the stream.
+				Mechanic4: Hold middle mouse to control a shard orb. The orb and its tethered shard field deal melee damage.
+				Mechanic5: The middle-mouse orb turns spent Shard Charge into burst power. Bursts are for damage windows; left click and the right-click shard stream remain the sustained core.
+				Mechanic6: Post-Golem Moon Lord preparation. Damage, blade length, Shard Charge capacity, orb radius, automatic bursts, and burst ceiling increase further.
+				Mechanic7: Post-Moon Lord final form. Left-click hits shed homing shards; detached shard hits restore Shard Charge. Right click forms a high-pressure shard stream, and full middle-mouse bursts trigger a brief convergence state.
+				ModeControlsLocked: Mode switch: Numpad 1 selects blade form.\\nNumpad 2 unlocks at Stage IV; Numpad 3/5 unlock at Stage V.\\nKeys can be changed in Controls under mod keybinds.
+				ModeControlsShardUnlocked: Mode switch: Numpad 1 blade form / Numpad 2 shard summon.\\nNumpad 3/5 unlock at Stage V.\\nKeys can be changed in Controls under mod keybinds.
+				ModeControlsUnlocked: Mode switch: 1 blade / 2 shard summon / 3 reforged greatsword.\\n4 guard support / 5 Crimson Rift.\\nKeys can be changed in Controls under mod keybinds.
+				Mode2Locked: Shard summon mode unlocks at Stage IV - Orb of Blades.
+				Mode3Locked: Reforged greatsword mode unlocks at Stage V - Blade Field.
+				Mode4Locked: Guard support mode unlocks at Stage IV - Orb of Blades.
+				Mode5Locked: Crimson Rift mode unlocks at Stage V - Blade Field.
+				ModeGameplay1: Current playstyle: Blade form.\\nLeft click builds Shard Charge; right click fires shard streams.\\nStage IV adds the middle-mouse orb.
+				ModeGameplay2: Current playstyle: Shard summon.\\nSummoned shards track enemies; middle mouse swaps to shears.\\nRight click sustains the shears typhoon.
+				ModeGameplay2Locked: Current playstyle: Shard summon unlocks at Stage IV.\\nFocused on tracking damage and shears typhoon pressure.
+				ModeGameplay3: Current playstyle: Reforged greatsword.\\nLeft click uses slow triple heavy slashes; right click dashes into ring slashes.\\nMiddle mouse spends Shard Charge on a burst.
+				ModeGameplay3Locked: Current playstyle: Reforged greatsword unlocks at Stage V.\\nFocused on slow heavy hits, dashes, and charged bursts.
+				ModeGameplay4: Current playstyle: Guard support.\\nLeft, middle, and right click swap guard strength.\\nTrade damage and summon capacity for damage reduction.
+				ModeGameplay4Locked: Current playstyle: Guard support unlocks at Stage IV.\\nFocused on damage reduction, guard fields, and reduced summon capacity.
+				ModeGameplay5: Current playstyle: Crimson Rift.\\nRight click raises the blade; hold left click to release the wide slash.\\nHits trigger heavy feedback.
+				ModeGameplay5Locked: Current playstyle: Crimson Rift unlocks at Stage V.\\nRight click readies the blade; left click releases a wide slash.
+				Mode3BurstNeedCharge: Mode 3 middle burst needs Shard Charge.
+				PrefixDamageBonus: +{0}% damage
+				PrefixDamagePenalty: -{0}% damage
+				PrefixSpeedBonus: +{0}% speed
+				PrefixSpeedPenalty: -{0}% speed
+				PrefixCritBonus: +{0}% critical strike chance
+				PrefixCritPenalty: -{0}% critical strike chance
+				PrefixKnockbackBonus: +{0}% knockback
+				PrefixKnockbackPenalty: -{0}% knockback
+				Ready: Ready
+				Missing: Missing
+				Next1: Next awakening ({0}): defeat any boss, then spend 3 Fallen Stars and 4 Lens.
+				Next2: Next awakening ({0}): defeat Skeletron or Queen Bee, then spend 30 Bones or 12 Bee Wax, plus 10 Demonite or Crimtane Bars.
+				Next3: Next awakening ({0}): enter Hardmode, then spend 15 Hellstone Bars, 12 Crystal Shards, and 8 Souls of Light or Night.
+				Next4: Next awakening ({0}): defeat any mechanical boss, then spend 12 Hallowed Bars and 8 Souls of Might, Sight, or Fright.
+				Next5: Next awakening ({0}): defeat Plantera, then spend 18 Chlorophyte Bars, 10 Ectoplasm, 1 Life Fruit, and 25 Shadow Scales or Tissue Samples.
+				Next6: Next awakening ({0}): defeat Golem, then spend 12 Beetle Husks, 1 Solar Tablet, and 12 Ectoplasm.
+				Next7: Final awakening ({0}): defeat Moon Lord, then spend 12 Luminite Bars and 8 of each Lunar Fragment.
+				NeedFirstBoss: The blade is still silent. Defeat any boss first.
+				NeedStage1Items: Awakening requires 3 Fallen Stars and 4 Lens.
+				NeedSkeletronOrQueenBee: The blade needs stronger prey. Defeat Skeletron or Queen Bee first.
+				NeedStage2Items: Awakening requires 30 Bones or 12 Bee Wax, plus 10 Demonite or Crimtane Bars.
+				NeedHardmode: The blade needs Hardmode power. Defeat the Wall of Flesh first.
+				NeedStage3Items: Unbinding requires 15 Hellstone Bars, 12 Crystal Shards, and 8 Souls of Light or Night.
+				NeedMechBoss: The shard orb needs mechanical power. Defeat any mechanical boss first.
+				NeedStage4Items: Orb awakening requires 12 Hallowed Bars and 8 Souls of Might, Sight, or Fright.
+				NeedPlantera: The blade field needs power from the deep jungle. Defeat Plantera first.
+				NeedStage5Items: Blade Field awakening requires 18 Chlorophyte Bars, 10 Ectoplasm, 1 Life Fruit, and 25 Shadow Scales or Tissue Samples.
+				NeedGolem: Moonbreaker awakening needs power from the jungle temple. Defeat Golem first.
+				NeedStage6Items: Moonbreaker awakening requires 12 Beetle Husks, 1 Solar Tablet, and 12 Ectoplasm.
+				NeedMoonLord: Thousandfold Convergence needs Moon Lord's echo. Defeat Moon Lord first.
+				NeedStage7Items: Final awakening requires 12 Luminite Bars and 8 Solar, Vortex, Nebula, and Stardust Fragments.
+				Upgrade1: Thousand Demon Daggers awakened. The broken blade answers your swing.
+				Upgrade2: A thousand edges answer your call. Shard Charge unlocked.
+				Upgrade3: Thousand Demon Daggers unbound. Longer reach and a denser shard stream awakened.
+				Upgrade4: The thousand shards form an orb. Hold middle mouse to control it.
+				Upgrade5: Blade Field awakened. The orb now feeds on Shard Charge and bursts apart when released.
+				Upgrade6: Moonbreaker awakened. The shards now chase down fleeing prey until the moonlight splits.
+				Upgrade7: Thousandfold Convergence awakened. Every shard now answers the same swing.
+				AwakenedCombatText: Blade Awakened
+				FixedStage: Fixed-stage test item. It cannot be upgraded by right-clicking.
+				CurrentLimit: This version has reached its current growth limit.
+			}
+
+			MoDaoQianRenStage0: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage1: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage2: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage3: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage4: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage5: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage6: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+
+			MoDaoQianRenStage7: {
+				DisplayName: Thousand Demon Daggers
+				Tooltip: Its blade is broken, but a thousand edges still whisper within.
+			}
+		}
+
+		Projectiles: {
+			MoDaoQianRenHeldProjectile.DisplayName: Thousand Demon Daggers
+			MoDaoQianRenShardProjectile.DisplayName: Blade Shard
+			MoDaoQianRenShardOrbProjectile.DisplayName: Shard Orb
+			MoDaoQianRenPrismBladeProjectile.DisplayName: Mo Dao Qian Ren Prism Blade Projectile
+			MoDaoQianRenPrismShardProjectile.DisplayName: Mo Dao Qian Ren Prism Shard Projectile
+			MoDaoQianRenShearsProjectile.DisplayName: Mo Dao Qian Ren Shears Projectile
+			MoDaoQianRenShearsTyphoonProjectile.DisplayName: Mo Dao Qian Ren Shears Typhoon Projectile
+			MoDaoQianRenGuardFieldProjectile.DisplayName: Mo Dao Qian Ren Guard Field Projectile
+			MoDaoQianRenCrimsonRiftSlashProjectile.DisplayName: Mo Dao Qian Ren Crimson Rift Slash Projectile
+		}
+
+		UI: {
+			ShardCharge: Shard Charge {0}/{1}
+
+			StageEditor: {
+				Title: Blade Stage Tuning
+				Subtitle: Click the slot to read the blade from cursor, hand, or inventory, then edit raw base stats
+				Hint: Hover or select a parameter to see its effect, saved range, and practical floor; Save applies only to this stage.
+				EmptySlot: Click the left slot to read your owned Thousand Demon Daggers
+				SlotHint: Click to read weapon
+				SlotSubhint: The slot only reads the stage; it never moves or consumes the weapon
+				InvalidItem: Thousand Demon Daggers only
+				Save: Save
+				Reset: Reset
+				AutoUpgradeOn: Auto awaken: On
+				AutoUpgradeOff: Auto awaken: Off
+				AutoUpgradeDesc: After the required boss is defeated, the blade automatically awakens without spending materials.
+				Close: Close
+				StatusNeedBlade: Place Thousand Demon Daggers first
+				StatusInvalidItem: This slot only reads Thousand Demon Daggers stages
+				StatusInvalidField: "{0} has an invalid value"
+				StatusSaved: Saved stage parameters for {0}
+				StatusReset: Reset default parameters for {0}
+				StatusAutoUpgradeEnabled: Auto awaken after boss defeats enabled
+				StatusAutoUpgradeDisabled: Auto awaken after boss defeats disabled
+				StatusLoadedCustom: Loaded custom parameters for {0}
+				StatusLoadedDefault: Loaded default parameters for {0}
+				ModeGuideTitle: Current stage playstyle
+				ModeGuide1: Mode 1: left-click melee chains build Shard Charge, right click spends it on shard streams, and middle mouse controls the orb after Stage IV.
+				ModeGuide2: Mode 2: press Numpad 2 to summon tracking shards; middle mouse swaps to shears, and right click sustains the shears typhoon.
+				ModeGuide2Locked: Mode 2: unlocks at Stage IV as shard summon mode, focused on tracking summons and shears typhoon pressure.
+				ModeGuide3: Mode 3: press Numpad 3 for slow triple greatsword slashes; right click dashes into ring slashes, and middle mouse charges a burst.
+				ModeGuide3Locked: Mode 3: unlocks at Stage V as reforged greatsword, focused on slow heavy slashes, dashes, and charged bursts.
+				ModeGuide4: Mode 4: press Numpad 4, then left/middle/right click to swap guard strength and trade output for damage reduction.
+				ModeGuide4Locked: Mode 4: unlocks at Stage IV as guard support, focused on damage reduction, guard fields, and compressed summon capacity.
+				ModeGuide5: Mode 5: press Numpad 5, right click to raise the blade, then hold left click to release Crimson Rift; hits trigger heavy feedback.
+				ModeGuide5Locked: Mode 5: unlocks at Stage V as Crimson Rift, readying with right click and releasing a wide slash with left click.
+				FieldDamage: Damage
+				FieldKnockBack: Knockback
+				FieldCritChance: Crit %
+				FieldUseTime: Use frames
+				FieldBladeLength: Blade length
+				FieldMaxShardCharge: Max charge
+				FieldShardStreamConsumeRate: Stream interval
+				FieldShardStreamShardCount: Stream shards
+				FieldShardStreamDamageMultiplier: Stream damage
+				FieldShardPrismSetupUseTime: Prism startup
+				FieldShardPrismBaseShardCount: Prism base
+				FieldShardPrismShardsPerBonusMinionSlot: Prism bonus
+				FieldShardPrismMaxShardCount: Prism max
+				FieldShardPrismDamageMultiplier: Prism damage
+				FieldGreatswordCritChance: Great crit
+				FieldGreatswordDamageMultiplier: Great damage
+				FieldGreatswordHeavyDamageMultiplier: Heavy damage
+				FieldGreatswordKnockbackMultiplier: Great knock
+				FieldGreatswordHeavyKnockbackMultiplier: Heavy knock
+				FieldComboShardDamageMultiplier: Combo shard
+				FieldGreatswordAssistShardDamageMultiplier: Great shard
+				FieldFieldBurstDamageMultiplier: Field burst
+				FieldBladeDistanceDamageMultiplierMax: Reach cap
+				FieldBladeHeavyDamageMultiplier: Blade heavy
+				FieldBladeSpinDamageMultiplier: Blade spin
+				FieldBladeHitShardChargeGain: Blade charge
+				FieldBladeFinisherShardChargeBonus: Finisher charge
+				FieldTipHitShardChargeBonus: Tip charge
+				FieldShardPrismSearchRange: Prism seek
+				FieldShardPrismPlayerOrbitRadius: Player orbit
+				FieldShardPrismTargetOrbitRadius: Target orbit
+				FieldShardPrismChargeTime: Prism cycle
+				FieldShardPrismIdleSpeed: Idle speed
+				FieldShardPrismTargetOrbitSpeed: Orbit speed
+				FieldShardPrismLungeSpeed: Lunge speed
+				FieldShardPrismRepulsionSpeed: Repel speed
+				FieldShardPrismLocalHitCooldown: Prism cooldown
+				FieldShearsSummonDamageMultiplier: Shears damage
+				FieldShearsTyphoonDamageMultiplier: Typhoon damage
+				FieldShearsLocalHitCooldown: Shears cooldown
+				FieldShearsTyphoonLocalHitCooldown: Typhoon cooldown
+				FieldGreatswordBurstDamageMultiplier: Burst damage
+				FieldGreatswordBurstLengthMultiplier: Burst length
+				FieldGreatswordBurstMaximumBladeLength: Burst cap
+				FieldGreatswordBurstChargeConsumeInterval: Charge interval
+				FieldGreatswordBurstChargePerHit: Charge per hit
+				FieldGreatswordBurstMaximumHitCount: Burst hits
+				FieldGreatswordComboDashShardCost: Dash cost
+				FieldGreatswordComboDashLengthMultiplier: Dash length
+				FieldGreatswordComboRingSlashFrames: Ring frames
+				FieldGreatswordComboRingSlashConsumeInterval: Ring consume
+				FieldGreatswordComboRingSlashDamageMultiplier: Ring damage
+				FieldGreatswordHitShardChargeGain: Great charge
+				FieldGreatswordFinisherShardChargeBonus: Great finisher
+				FieldGuardNormalDamageMultiplier: Guard damage
+				FieldGuardWallDamageMultiplier: Wall damage
+				FieldGuardSuperDamageMultiplier: Super damage
+				FieldGuardNormalShardCapacityMultiplier: Guard capacity
+				FieldGuardWallShardCapacityMultiplier: Wall capacity
+				FieldGuardSuperShardCapacityMultiplier: Super capacity
+				FieldFieldBurstFullCharge: Burst full
+				FieldFieldBurstMinimumCharge: Burst minimum
+				FieldFieldBurstShardCount: Burst shards
+				FieldFieldMinimumRadius: Field inner
+				FieldFieldMaximumRadius: Field outer
+				FieldFinalAssistShardDamageMultiplier: Final shard
+				FieldFinalConvergenceShardDamageMultiplier: Converge shard
+				FieldFinalConvergenceDuration: Converge time
+				FieldFinalConvergencePulseRate: Converge rate
+				FieldCrimsonRiftDamageMultiplier: Rift damage
+				FieldCrimsonRiftBladeLengthMultiplier: Rift length
+				FieldCrimsonRiftShardChargeGain: Rift charge
+				FieldCrimsonRiftWindupFrames: Rift windup
+				FieldCrimsonRiftSlashFrames: Rift slash
+				FieldCrimsonRiftRecoveryFrames: Rift recovery
+				FieldCrimsonRiftLocalHitCooldown: Rift cooldown
+				FieldDamageDesc: Base damage; saved range 1-9999.
+				FieldKnockBackDesc: Base knockback; saved range 0-50.
+				FieldCritChanceDesc: Mode 1 crit chance; saved range 0-100.
+				FieldUseTimeDesc: Left-click base frames; saved range 1-999, item floor 5, swing floors normal 8/10 and finisher 13/15.
+				FieldBladeLengthDesc: Mode 1 blade length; saved range 40-3000, practical reach is still capped by weapon max length.
+				FieldMaxShardChargeDesc: Shard Charge cap; saved range 0-9999, spent by right click, middle mouse, and Mode 3 burst hit count.
+				FieldShardStreamConsumeRateDesc: Right-click stream interval; saved range 1-999, practical floor 2 frames.
+				FieldShardStreamShardCountDesc: Right-click shards per stream tick; saved range 0-100.
+				FieldShardStreamDamageMultiplierDesc: Right-click damage multiplier per stream shard; saved range 0.01-50.
+				FieldShardPrismSetupUseTimeDesc: Mode 2 prism setup frames; saved range 1-999, lower is faster.
+				FieldShardPrismBaseShardCountDesc: Mode 2 base summoned shard count; saved range 0-300.
+				FieldShardPrismShardsPerBonusMinionSlotDesc: Mode 2 extra shards per bonus minion slot; saved range 0-100.
+				FieldShardPrismMaxShardCountDesc: Mode 2 maximum summoned shard count; saved range 0-400.
+				FieldShardPrismDamageMultiplierDesc: Mode 2 summoned shard damage multiplier; saved range 0-50.
+				FieldGreatswordCritChanceDesc: Mode 3 greatsword crit chance; saved range 0-100.
+				FieldGreatswordDamageMultiplierDesc: Mode 3 normal slash damage multiplier; saved range 0-50.
+				FieldGreatswordHeavyDamageMultiplierDesc: Mode 3 third-hit heavy slash damage multiplier; saved range 0-50.
+				FieldGreatswordKnockbackMultiplierDesc: Mode 3 normal slash knockback multiplier; saved range 0-50.
+				FieldGreatswordHeavyKnockbackMultiplierDesc: Mode 3 heavy slash knockback multiplier; saved range 0-50.
+				FieldComboShardDamageMultiplierDesc: Left-click hit assist shard multiplier; saved range 0-50.
+				FieldGreatswordAssistShardDamageMultiplierDesc: Mode 3 follow-up shard multiplier; saved range 0-50.
+				FieldFieldBurstDamageMultiplierDesc: Middle-mouse shard orb burst damage multiplier; saved range 0-50.
+				FieldBladeDistanceDamageMultiplierMaxDesc: Mode 1 maximum damage multiplier from blade reach; saved range 0-50.
+				FieldBladeHeavyDamageMultiplierDesc: Mode 1 third-hit heavy slash multiplier; saved range 0-50.
+				FieldBladeSpinDamageMultiplierDesc: Mode 1 spin finisher multiplier; saved range 0-50.
+				FieldBladeHitShardChargeGainDesc: Shard Charge gained by normal Mode 1 hits; saved range 0-999.
+				FieldBladeFinisherShardChargeBonusDesc: Extra Shard Charge gained by Mode 1 heavy or spin finishers; saved range 0-999.
+				FieldTipHitShardChargeBonusDesc: Extra Shard Charge gained by tip hits; saved range 0-999.
+				FieldShardPrismSearchRangeDesc: Mode 2 summoned shard enemy search distance; saved range 0-6000.
+				FieldShardPrismPlayerOrbitRadiusDesc: Mode 2 orbit radius around the player when no target exists; saved range 0-2000.
+				FieldShardPrismTargetOrbitRadiusDesc: Mode 2 orbit radius around the target; saved range 0-2000.
+				FieldShardPrismChargeTimeDesc: Mode 2 total idle-to-lunge cycle time; saved range 1-999.
+				FieldShardPrismIdleSpeedDesc: Mode 2 speed returning to idle positions; saved range 0-200.
+				FieldShardPrismTargetOrbitSpeedDesc: Mode 2 speed while orbiting a target; saved range 0-200.
+				FieldShardPrismLungeSpeedDesc: Mode 2 lunge speed; saved range 0-200.
+				FieldShardPrismRepulsionSpeedDesc: Mode 2 pull-away speed after hits; saved range 0-200.
+				FieldShardPrismLocalHitCooldownDesc: Mode 2 summoned shard cooldown against the same enemy; saved range 1-999.
+				FieldShearsSummonDamageMultiplierDesc: Mode 2 shears summon damage multiplier from weapon damage; saved range 0-500.
+				FieldShearsTyphoonDamageMultiplierDesc: Mode 2 right-click shears typhoon damage multiplier from weapon damage; saved range 0-500.
+				FieldShearsLocalHitCooldownDesc: Shears summon cooldown against the same enemy; saved range 1-999.
+				FieldShearsTyphoonLocalHitCooldownDesc: Shears typhoon cooldown against the same enemy; saved range 1-999.
+				FieldGreatswordBurstDamageMultiplierDesc: Mode 3 middle-mouse burst damage multiplier from weapon damage; saved range 0-500.
+				FieldGreatswordBurstLengthMultiplierDesc: Mode 3 full-charge burst blade length multiplier; saved range 0-20.
+				FieldGreatswordBurstMaximumBladeLengthDesc: Maximum blade length allowed for Mode 3 burst; saved range 120-4000.
+				FieldGreatswordBurstChargeConsumeIntervalDesc: Frames per 1 Shard Charge consumed while charging Mode 3 burst; saved range 1-999.
+				FieldGreatswordBurstChargePerHitDesc: Shard Charge required for each Mode 3 burst hit segment; saved range 1-999.
+				FieldGreatswordBurstMaximumHitCountDesc: Maximum hit segments for Mode 3 burst; saved range 1-999.
+				FieldGreatswordComboDashShardCostDesc: Shard Charge spent to start the Mode 3 right-click dash; saved range 0-999.
+				FieldGreatswordComboDashLengthMultiplierDesc: Mode 3 right-click dash hitbox blade length multiplier; saved range 0-20.
+				FieldGreatswordComboRingSlashFramesDesc: Duration of the hold-right-click ring slash after a Mode 3 dash hit; saved range 1-999.
+				FieldGreatswordComboRingSlashConsumeIntervalDesc: Frames per 1 Shard Charge consumed by ring slashes; saved range 1-999.
+				FieldGreatswordComboRingSlashDamageMultiplierDesc: Extra multiplier applied on top of heavy slash damage for ring slashes; saved range 0-50.
+				FieldGreatswordHitShardChargeGainDesc: Shard Charge gained by normal greatsword hits; saved range 0-999.
+				FieldGreatswordFinisherShardChargeBonusDesc: Extra Shard Charge gained by greatsword heavy hits; saved range 0-999.
+				FieldGuardNormalDamageMultiplierDesc: Damage taken multiplier in Mode 4 left-click guard form; saved range 0-10.
+				FieldGuardWallDamageMultiplierDesc: Damage taken multiplier in Mode 4 middle-click wall form; saved range 0-10.
+				FieldGuardSuperDamageMultiplierDesc: Damage taken multiplier in Mode 4 right-click super guard form; saved range 0-10.
+				FieldGuardNormalShardCapacityMultiplierDesc: Summoned shard capacity retained in guard form; saved range 0-10.
+				FieldGuardWallShardCapacityMultiplierDesc: Summoned shard capacity retained in wall form; saved range 0-10.
+				FieldGuardSuperShardCapacityMultiplierDesc: Summoned shard capacity retained in super guard form; saved range 0-10.
+				FieldFieldBurstFullChargeDesc: Shard Charge needed for automatic full-charge orb burst; saved range 1-999.
+				FieldFieldBurstMinimumChargeDesc: Minimum charge that allows an orb burst on release; saved range 0-999.
+				FieldFieldBurstShardCountDesc: Shards fired by a full-charge orb burst; saved range 0-999.
+				FieldFieldMinimumRadiusDesc: Minimum radius of the shard field; saved range 0-4000.
+				FieldFieldMaximumRadiusDesc: Maximum radius of the shard field; saved range 0-4000.
+				FieldFinalAssistShardDamageMultiplierDesc: Final-form follow-up shard multiplier from left-click hits; saved range 0-50.
+				FieldFinalConvergenceShardDamageMultiplierDesc: Final-form convergence follow-up shard multiplier after full orb bursts; saved range 0-50.
+				FieldFinalConvergenceDurationDesc: Final-form convergence duration in frames; saved range 1-999.
+				FieldFinalConvergencePulseRateDesc: Frames between convergence follow-up shard pulses; saved range 1-999.
+				FieldCrimsonRiftDamageMultiplierDesc: Mode 5 Crimson Rift slash damage multiplier from weapon damage; saved range 0-500.
+				FieldCrimsonRiftBladeLengthMultiplierDesc: Mode 5 Crimson Rift blade length multiplier; saved range 0-20.
+				FieldCrimsonRiftShardChargeGainDesc: Shard Charge gained when Crimson Rift hits; saved range 0-999.
+				FieldCrimsonRiftWindupFramesDesc: Windup frames after holding left click in Mode 5; saved range 1-999.
+				FieldCrimsonRiftSlashFramesDesc: Active damaging slash frames for Mode 5; saved range 1-999.
+				FieldCrimsonRiftRecoveryFramesDesc: Recovery frames after the Mode 5 slash; saved range 1-999.
+				FieldCrimsonRiftLocalHitCooldownDesc: Mode 5 cooldown against the same enemy; saved range 1-999.
+			}
+		}
+
+		Keybinds: {
+			OpenStageEditor.DisplayName: Open Blade Tuning
+			SwitchToBladeMode.DisplayName: Switch to Mode 1: Blade
+			SwitchToShardPrismMode.DisplayName: Switch to Mode 2: Shard Summon
+			SwitchToGreatswordMode.DisplayName: Switch to Mode 3: Reforged Greatsword
+			SwitchToGuardMode.DisplayName: Switch to Mode 4: Guard
+			SwitchGreatswordDevilsMode.DisplayName: Switch to Mode 5: Crimson Rift
+		}
+
+		UpdateNotice: {
+			Header: Thousand Demon Daggers v0.4 updated: the blade is now built as a full-run main weapon.
+			Line1: Left click reworked: clearer swings, an empowered slash with the complete blade, and a spin finisher with the extended shard blade.
+			Line2: Right click and middle mouse were rebalanced so shard streams, the shard orb, and final-stage resource loops all matter.
+			Line3: Shard visuals, melee attack speed scaling, WeaponOut texture sizing, and the release icon were also polished.
+		}
+	}
+}

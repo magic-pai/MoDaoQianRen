@@ -1,0 +1,15 @@
+bin/
+obj/
+tmp/
+VideoEdit/
+CoverOutput/
+.codex_*/
+.codex_video_frames/
+.codex_tools/
+Properties/
+.vs/
+*.user
+*.suo
+*.tmp
+*.log
+*.tmod
